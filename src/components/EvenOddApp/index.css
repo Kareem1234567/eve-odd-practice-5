@@ -1,0 +1,35 @@
+/* Write your CSS here */
+.bg-container {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.even-odd-container {
+  background-image: linear-gradient(to bottom, #ff6e7f, #bfe9ff);
+  font-family: 'Roboto';
+  text-align: center;
+  padding: 40px;
+  border-radius: 20px;
+}
+.heading {
+  font-size: 30px;
+  color: #0f172a;
+}
+.paragraph {
+  font-size: 20px;
+  color: #334155;
+}
+.increment-button {
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border: none;
+  border-radius: 10px;
+}
+.description {
+  font-size: 10px;
+  color: #1e293b;
+}
